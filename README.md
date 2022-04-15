@@ -19,8 +19,8 @@ From "ImportSymbolsScript.py" file, which says:
 
 I just add an l to everything because Apple's ROM maps aren't obvious in what is what.
 
-there's a mystery here: in the ROM map files, a line can end with an "E", a "#", or nothing
+there's a mystery here: in the ROM map files, a line can end with an "E", a "#", or nothing:
 
-* E seems to be functions? entry/exit something? public or something?
-* # seems to be data?
+* "E" seems to be functions? entry/exit something? public or something?
+* "#" seems to be data?
 * nothing who knows?
