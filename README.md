@@ -6,6 +6,18 @@ Use with Ghidra's "ImportSymbolsScript.py" and a copy of the ROM you want to loo
 
 Don't see your mac listed?  It's got the same map as one of the other ones.  See "Makefile" to figure out which one, if you don't already know.
 
+how to use
+----------
+1. Get Ghidra and make a new project
+2. Import the Mac ROM, probably as 68000 binary (or 020, or 040)
+3. Open it
+4. In the menu, click Window > Script Manager
+5. Doubleclick ImportSymbolsScript
+6. Select the ROM map
+7. Voila
+
+If you want a nice starting point, go to the first label that's something like "INITSTART", click, and hit 'd', which will start some diassembly.
+
 notes
 -----
 
