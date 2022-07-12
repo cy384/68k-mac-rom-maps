@@ -34,3 +34,9 @@ there's a mystery here: in the ROM map files, a line can end with an "E", a "#",
 * "E" seems to be functions? entry/exit something? public or something?
 * "#" seems to be data?
 * nothing who knows?
+
+A traps bonus
+-------------
+Want to be able to diassemble Mac code without Ghidra crying at every A trap?  Paste the contents of "ghidra-a-traps.txt" into "68000.sinc" below the line starting with ":nop".
+
+This basically inserts ~1000 A traps as opcodes without providing any information to Ghidra about what they do.  Still very helpful for manually inspecting code!
